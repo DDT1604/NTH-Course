@@ -1,4 +1,4 @@
-**Network Types**  
+# Network Types  
 - Mỗi mạng lưới được cấu trúc khác nhau và thiết lập riêng lẻ
 - Vì lý do này, cái được gọi là *type* và *topologic* đã được phát triển có thể được sử dụng để phân loại mạng này
 
