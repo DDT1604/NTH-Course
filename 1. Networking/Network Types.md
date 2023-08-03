@@ -3,7 +3,7 @@
 - Vì lý do này, cái được gọi là *type* và *topologic* đã được phát triển có thể được sử dụng để phân loại mạng này
 
 |            Network Type            |                     Định nghĩa                   |
-|-----------------------------------:|--------------------------------------------------|
+|------------------------------------|--------------------------------------------------|
 | Wide Area Network (WAN)            | Internet                                         |
 | Local Area Network (LAN)           | Mạng nội bộ (VD: nhà hàng, trường học, ...)      |
 | Wireless Local Area Network (WLAN) | Mạng nội bộ có thể truy câp qua Wi-Fi, Bluetooth |
