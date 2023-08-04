@@ -53,3 +53,6 @@
 - Mỗi máy chủ được kết nối với *thành phần mạng trung tâm* thông qua một kết nối riêng biệt. Đây thường là một router, hub hoặc switch. Chúng xử lý *chức năng chuyển tiếp* cho các gói dữ liệu
 - Lưu lượng dữ liệu trên thành phần mạng trung tâm có thể rất cao vì tất cả dữ liệu và kết nối đều đi qua nó
 
+![what-is-star-topology1](https://github.com/DDT1604/NTH-Course/assets/101965134/97d39f98-cab0-4803-991b-e1fb76a59aeb)
+
+**D. Ring**
