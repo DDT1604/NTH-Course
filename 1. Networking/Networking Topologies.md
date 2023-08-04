@@ -37,3 +37,4 @@
 - Là cấu trúc liên kết mạng đơn giản nhất dành cho *2 máy chủ*
 - Trong cấu trúc liên kết này, một liên kết vật lý trực tiếp và đơn giản chỉ tồn tại giữa *2 máy chủ*
 - *Point-to-Point* là mô hình cơ bản của điẹn thoại truyền thống và không được nhầm lẫn với *P2P (Peer-to-Peer)*
+![abc](https://github.com/DDT1604/NTH-Course/assets/101965134/03882c8c-be3f-4a00-8682-ad3415524a3f)
