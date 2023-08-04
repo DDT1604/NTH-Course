@@ -34,8 +34,15 @@
 - Các mạng phức tạp hơn có thể được xây dựng dưới dạng kết hợp của hai hoặc nhiều cấu trúc liên kết cơ bản được đề cập ở trên
 
 **A. Point-to-Point**
-- Là cấu trúc liên kết mạng đơn giản nhất dành cho *2 máy chủ*
+- Đây là cấu trúc liên kết mạng đơn giản nhất dành cho *2 máy chủ*
 - Trong cấu trúc liên kết này, một liên kết vật lý trực tiếp và đơn giản chỉ tồn tại giữa *2 máy chủ*
 - *Point-to-Point* là mô hình cơ bản của điện thoại truyền thống và không được nhầm lẫn với *P2P (Peer-to-Peer)*
 
 ![abc](https://github.com/DDT1604/NTH-Course/assets/101965134/03882c8c-be3f-4a00-8682-ad3415524a3f)
+
+**B. Bus**
+- Tất cả máy chủ được kết nối thông qua một phương tiện truyền dẫn trong cấu trúc liên kết bus
+- Mọi máy chủ đều có quyền truy cập vào phương tiện truyền dẫn và các tín hiệu được truyền qua nó
+- Vì phương tiện được chia sẻ với tất cả những người khác nên *chỉ có một máy chủ có thể gửi* và tất cả những người khác chỉ có thể nhận và đánh giá dữ liệu cũng như xem liệu nó có dành cho chính nó hay không <br />
+**Chú ý*: Không có thành phần mạng trung tâm nào điều khiển các tiến trình trên đó
+
