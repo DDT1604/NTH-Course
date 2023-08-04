@@ -46,3 +46,6 @@
 - Vì phương tiện được chia sẻ với tất cả những người khác nên *chỉ có một máy chủ có thể gửi* và tất cả những người khác chỉ có thể nhận và đánh giá dữ liệu cũng như xem liệu nó có dành cho chính nó hay không <br />
 **Chú ý*: Không có thành phần mạng trung tâm nào điều khiển các tiến trình trên đó
 
+![lmao](https://github.com/DDT1604/NTH-Course/assets/101965134/8bf1d33f-e7d1-41d6-ba9f-79088a3ce972)
+
+**C. Star**
