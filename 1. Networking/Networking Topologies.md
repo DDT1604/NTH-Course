@@ -56,3 +56,14 @@
 ![what-is-star-topology1](https://github.com/DDT1604/NTH-Course/assets/101965134/97d39f98-cab0-4803-991b-e1fb76a59aeb)
 
 **D. Ring**
+- Cấu trúc liên kết *vật lý* vòng sao cho mỗi máy chủ hoặc nút được kết nối với vòng bằng 2 cáp: <br />
++) Một cho các tín hiệu đến <br />
++) Cái còn lại cho các tín hiệu ra
+- Điều này có nghĩa là một cáp đến mỗi máy chủ và một cáp rời đi
+- Cấu trúc liên kết vòng không cần thành phần mạng hoạt động
+- Việc kiểm soát và truy cập vào các phương tiện truyền dẫn được điều chỉnh bởi một giao thức mà tất cả các trạm đều tuân theo
+- Cấu trúc liên kết vòng *logic* dựa trên cấu trúc liên kết sao vật lý, trong đó bộ phân phối tại nút mô phỏng vòng bằng cách chuyển tiếp từ cổng này sang cổng tiếp theo
+
+![ring](https://github.com/DDT1604/NTH-Course/assets/101965134/975923a9-192c-48ad-ac44-c295548937bd)
+
+**E. Mesh**
