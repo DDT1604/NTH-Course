@@ -19,8 +19,8 @@
 |:---|:---|:---|:---|
 | **Router/Modem** | **Gateway** | **Firewall** |
 
-- Các nút (node) mạng là điểm kết nối của *phương tiện truyền dẫn* (transmission medium) để phát và thu tín hiệu điện, quang hoặc vô tuyến trong môi trường
-- Một nút có thể được kết nối với máy tính, nhưng một số loại nhất định có thể chỉ có một bộ vi điều khiển trên một nút hoặc có thể không có thiết bị lập trình nào cả
+- Các node mạng là điểm kết nối của *phương tiện truyền dẫn* (transmission medium) để phát và thu tín hiệu điện, quang hoặc vô tuyến trong môi trường
+- Một node có thể được kết nối với máy tính, nhưng một số loại nhất định có thể chỉ có một bộ vi điều khiển trên một node hoặc có thể không có thiết bị lập trình nào cả
 
 **3. Classifications**
 - Cấu trúc liên kết mạng được chia làm 8 loại cơ bản như sau:
@@ -56,14 +56,41 @@
 ![what-is-star-topology1](https://github.com/DDT1604/NTH-Course/assets/101965134/97d39f98-cab0-4803-991b-e1fb76a59aeb)
 
 **D. Ring**
-- Cấu trúc liên kết *vật lý* vòng sao cho mỗi máy chủ hoặc nút được kết nối với vòng bằng 2 cáp: <br />
+- Cấu trúc liên kết *vật lý* vòng sao cho mỗi máy chủ hoặc node được kết nối với vòng bằng 2 cáp: <br />
 +) Một cho các tín hiệu đến <br />
 +) Cái còn lại cho các tín hiệu ra
 - Điều này có nghĩa là một cáp đến mỗi máy chủ và một cáp rời đi
 - Cấu trúc liên kết vòng không cần thành phần mạng hoạt động
 - Việc kiểm soát và truy cập vào các phương tiện truyền dẫn được điều chỉnh bởi một giao thức mà tất cả các trạm đều tuân theo
-- Cấu trúc liên kết vòng *logic* dựa trên cấu trúc liên kết sao vật lý, trong đó bộ phân phối tại nút mô phỏng vòng bằng cách chuyển tiếp từ cổng này sang cổng tiếp theo
+- Cấu trúc liên kết vòng *logic* dựa trên cấu trúc liên kết sao vật lý, trong đó bộ phân phối tại node mô phỏng vòng bằng cách chuyển tiếp từ cổng này sang cổng tiếp theo
 
 ![ring](https://github.com/DDT1604/NTH-Course/assets/101965134/975923a9-192c-48ad-ac44-c295548937bd)
 
 **E. Mesh**
+- Nhiều node quyết định về các kết nối trên cấp độ *vật lý* và định tuyến (routing) trên cấp độ *logic* trong các mạng lưới
+- Có hai cấu trúc cơ bản là "chia lưới hoàn toàn" và "chia lưới một phần"
+- Mỗi máy chủ được kết nối với mọi máy chủ khác trong *cấu trúc chia lưới hoàn toàn*. Điều này có nghĩa là các máy chủ được chia lưới với nhau
+- Kỹ thuật này chủ yếu được sử dụng trong *WAN* hoặc *MAN* để đảm bảo độ tin cậy và băng thông cao
+- Trong thiết lập này, các node mạng quan trọng như router có thể được kết nối mạng với nhau
+- Mỗi node có các chức năng định tuyến giống nhau và biết các node lân cận mà nó có thể giao tiếp gần với cổng mạng và tải lưu lượng
+- Trong *cấu trúc chia lưới một phần*, các điểm cuối chỉ được kết nối bằng một kết nối
+- Trong loại cấu trúc liên kết mạng này, các node cụ thể được kết nối với chính xác một node khác và một số node khác được kết nối với hai hoặc nhiều node khác bằng kết nối point-to-point
+
+![topo_mesh](https://github.com/DDT1604/NTH-Course/assets/101965134/c136dfdf-15cc-4bc2-8ab4-25b5fef636ca)
+
+**F. Tree**
+- Cấu trúc liên kết cây là cấu trúc sao mở rộng mà các mạng cục bộ mở rộng hơn có trong cấu trúc này
+- Có cả cấu trúc cây logic theo *cây bao trùm* và cây vật lý
+- Các mạng hiện đại dạng module, dựa trên hệ thống cáp có cấu trúc với hệ thống phân cấp trung tâm, cũng có cấu trúc dạng cây
+
+![Tree-Topology-1024x536](https://github.com/DDT1604/NTH-Course/assets/101965134/aa182676-4583-4ff3-af26-53e7c0e5d7fd)
+
+**G. Hybrid**
+- Cấu trúc liên kết lai là cấu trúc được kết hợp từ hai cấu trúc liên kết mạng cơ bản trở lên
+
+![social-network-concept-hybrid-topology-network-social-network-concept-hybrid-topology-network-data-g](https://github.com/DDT1604/NTH-Course/assets/101965134/df92dfbe-67f0-430b-bde1-8dd2d924b9c4)
+
+**H. Daisy Chain**
+- Trong cấu trúc liên kết chuỗi daisy, nhiều máy chủ được kết nối bằng cách đặt cáp từ node này sang node khác
+
+![daisy-chain-network-topology](https://github.com/DDT1604/NTH-Course/assets/101965134/0964fb3f-66d2-4fd6-8c83-33510f96b6e0)
