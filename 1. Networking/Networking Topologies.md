@@ -38,7 +38,7 @@
 - Trong cấu trúc liên kết này, một liên kết vật lý trực tiếp và đơn giản chỉ tồn tại giữa *2 máy chủ*
 - *Point-to-Point* là mô hình cơ bản của điện thoại truyền thống và không được nhầm lẫn với *P2P (Peer-to-Peer)*
 
-![abc](https://github.com/DDT1604/NTH-Course/assets/101965134/03882c8c-be3f-4a00-8682-ad3415524a3f)
+![Point-to-Point-Network-Topology-1024x593](https://github.com/DDT1604/NTH-Course/assets/101965134/96feb5f9-4643-42a5-a13d-06fd11bb34f0)
 
 **B. Bus**
 - Tất cả máy chủ được kết nối thông qua một phương tiện truyền dẫn trong cấu trúc liên kết bus
@@ -46,14 +46,14 @@
 - Vì phương tiện được chia sẻ với tất cả những người khác nên *chỉ có một máy chủ có thể gửi* và tất cả những người khác chỉ có thể nhận và đánh giá dữ liệu cũng như xem liệu nó có dành cho chính nó hay không <br />
 **Chú ý*: Không có thành phần mạng trung tâm nào điều khiển các tiến trình trên đó
 
-![lmao](https://github.com/DDT1604/NTH-Course/assets/101965134/8bf1d33f-e7d1-41d6-ba9f-79088a3ce972)
+![istockphoto-1424073936-612x612](https://github.com/DDT1604/NTH-Course/assets/101965134/8a696992-031e-4c7e-b7e8-4f1f1a14257d)
 
 **C. Star**
 - Cấu trúc liên kết hình sao là một thành phần mạng duy trì kết nối với tất cả các máy chủ
 - Mỗi máy chủ được kết nối với *thành phần mạng trung tâm* thông qua một kết nối riêng biệt. Đây thường là một router, hub hoặc switch. Chúng xử lý *chức năng chuyển tiếp* cho các gói dữ liệu
 - Lưu lượng dữ liệu trên thành phần mạng trung tâm có thể rất cao vì tất cả dữ liệu và kết nối đều đi qua nó
 
-![what-is-star-topology1](https://github.com/DDT1604/NTH-Course/assets/101965134/97d39f98-cab0-4803-991b-e1fb76a59aeb)
+![start-topology-type-network-600w-1977792497](https://github.com/DDT1604/NTH-Course/assets/101965134/3af6c48c-abbd-4f76-b14c-20bc8362f55e)
 
 **D. Ring**
 - Cấu trúc liên kết *vật lý* vòng sao cho mỗi máy chủ hoặc node được kết nối với vòng bằng 2 cáp: <br />
@@ -64,7 +64,7 @@
 - Việc kiểm soát và truy cập vào các phương tiện truyền dẫn được điều chỉnh bởi một giao thức mà tất cả các trạm đều tuân theo
 - Cấu trúc liên kết vòng *logic* dựa trên cấu trúc liên kết sao vật lý, trong đó bộ phân phối tại node mô phỏng vòng bằng cách chuyển tiếp từ cổng này sang cổng tiếp theo
 
-![ring](https://github.com/DDT1604/NTH-Course/assets/101965134/975923a9-192c-48ad-ac44-c295548937bd)
+![istockphoto-1428221851-1024x1024](https://github.com/DDT1604/NTH-Course/assets/101965134/9a398339-e8d6-40b8-9803-71f7df5b6ef4)
 
 **E. Mesh**
 - Nhiều node quyết định về các kết nối trên cấp độ *vật lý* và định tuyến (routing) trên cấp độ *logic* trong các mạng lưới
