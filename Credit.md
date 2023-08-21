@@ -11,3 +11,4 @@
 - <a href="https://www.conceptdraw.com/How-To-Guide/daisy-chain-network-topology">#8 image at [1. Networking/Networking Structure/Network Topologies.md]</a>
 - <a href="https://www.baeldung.com/wp-content/uploads/2022/04/Forward-Proxy-01.png">#1 image at [1. Networking/Networking Structure/Proxies.md]</a>
 - <a href="https://assets-global.website-files.com/5efc3ccdb72aaa7480ec8179/61ee501466af465f016c81b6_Proxy%20Servers%20vs.%20VPNs%203.png">#2 image at [1. Networking/Networking Structure/Proxies.md]</a>
+- <a href="https://www.javatpoint.com/osi-vs-tcp-ip">#1 image at [1. Networking/Networking Workflow/Networking Models.md]</a>
