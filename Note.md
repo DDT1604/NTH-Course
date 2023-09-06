@@ -14,3 +14,4 @@
 - router: bộ định tuyến
 - request: yêu cầu
 - model: mô hình
+- packet: gói
