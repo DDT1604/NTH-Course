@@ -3,7 +3,7 @@
 - Mô hình *OSI* sử dụng *7* lớp khác nhau, được phân cấp dựa trên nhau để đạt được mục tiêu này
 - Các lớp này đại diện cho các giai đoạn thiết lập mỗi kết nối mà qua đó các packet (gói) đã gửi qua
 
-| Layer (Lớp)                   | Function (Chứ năng)                                                       |
+| Layer (Lớp)                   | Function (Chức năng)                                                       |
 |-------------------------------|---------------------------------------------------------------------------|
 |*7. Application (Ứng dụng)*|Trong số những thứ khác, lớp này kiểm soát đầu vào và đầu ra của dữ liệu và cung cấp các chức năng của ứng dụng|
 |*6. Presentation (Thuyết trình)*|Nhiệm vụ của lớp này là trình bày dữ liệu phụ thuộc vào hệ thống thành một dạng độc lập với ứng dụng|
